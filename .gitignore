@@ -31,5 +31,8 @@
 *.out
 *.app
 
-#Release Folder
+# Release Folder
 Scoreboard-Release
+
+# Visual Studio Folder
+.vs

@@ -97,7 +97,6 @@ void updateFiles() {
     string dir4 = get_current_dir() + "/ScoreFiles/p2Char.png";
     copy_file(dir1.c_str(), dir2.c_str());
     copy_file(dir3.c_str(), dir4.c_str());
-    cout << "\nUpdated, probably";
 }
 
 void initReq() {
@@ -129,7 +128,6 @@ void closeLast() {
 }
 
 int main() {
-    cout << get_current_dir()+"\n";
     closeLast();
     initReq();
     start();
